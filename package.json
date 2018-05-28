@@ -1,0 +1,28 @@
+{
+  "name": "directed-graph-creator",
+  "version": "1.1.0",
+  "description": "directed-graph-creator ======================",
+  "main": "graph-creator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fdev": "NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "fwatch": "NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "fhot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "fproduction": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pochwar/directed-graph-creator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pochwar/directed-graph-creator/issues"
+  },
+  "homepage": "https://github.com/Pochwar/directed-graph-creator#readme",
+  "dependencies": {
+    "d3": "^3.5.17",
+    "file-saver": "^1.3.8",
+    "laravel-mix": "^2.1.11"
+  }
+}
